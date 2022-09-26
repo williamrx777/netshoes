@@ -150,4 +150,8 @@ footer {
     .footer__content {
         flex-direction: column;
     }
+    .menu__footer {
+        flex-direction: column;
+        gap: 40px;
+    }
 }
