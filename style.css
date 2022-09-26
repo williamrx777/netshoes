@@ -57,7 +57,10 @@ header {
     font-size: 18px;
     
 }
-
+.menu--link__header:hover {
+    background-color: #000;
+    color: white;
+}
 main {
     grid-area: m;
     
@@ -65,7 +68,7 @@ main {
 .main__content {
     margin: 100px;
     font-weight: 400;
-    font-family: sans-serif; 
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
@@ -78,9 +81,13 @@ main {
     border: none;
     
 }
+.btn__main:hover {
+    background-color: #000;
+    
+}
 aside {
     grid-area: a;
-    background-color: #E5E5E5;
+    
 }
 .asine__content {
     display: flex;
@@ -106,6 +113,7 @@ footer {
     padding: 30px;
     gap: 80px;
 }
+
 .btn--menu__footer {
     padding: 5px 150px;
     background-color: #000;
@@ -113,4 +121,33 @@ footer {
     font-size: 18px;
     font-family: sans-serif;
     font-weight: bold;
+}
+
+.btn--menu__footer:hover {
+    background-color: #FF0000;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .header__content {
+        flex-direction: column;
+    }
+    .menu-link__header {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .main__content {
+        flex-direction: column;
+    }
+    .asine__content img{
+        flex-direction: column;
+        max-width: 50%;
+    }
+    .footer__content {
+        flex-direction: column;
+    }
 }
