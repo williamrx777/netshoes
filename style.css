@@ -136,6 +136,9 @@ footer {
     .header__content {
         flex-direction: column;
     }
+    .icons__header {
+     background-image: none;
+    }
     .menu-link__header {
         flex-direction: column;
         gap: 40px;
