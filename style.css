@@ -52,6 +52,7 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 2px;
 }
 
 .menu--link__header {
