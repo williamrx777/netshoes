@@ -115,7 +115,7 @@ footer {
 }
 
 .btn--menu__footer {
-    padding: 5px 150px;
+    padding: 75px 150px;
     background-color: #000;
     color: white;
     font-size: 18px;
@@ -124,7 +124,7 @@ footer {
 }
 
 .btn--menu__footer:hover {
-    background-color: #FF0000;
+    background-color: #FF0000;   
 }
 
 @media screen and (max-width: 600px) {
