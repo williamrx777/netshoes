@@ -115,7 +115,7 @@ footer {
 }
 
 .btn--menu__footer {
-    padding: 75px 150px;
+    padding: 70px 150px;
     background-color: #000;
     color: white;
     font-size: 18px;
@@ -156,5 +156,9 @@ footer {
     .menu__footer {
         flex-direction: column;
         gap: 40px;
+    }
+    .btn--menu__footer {
+        padding: 75px 130px;
+        background-color: #000;
     }
 }
